@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+@import "tailwindcss/preflight.css" layer(base);
+
+
+@layer base {
+   pre {
+  @apply bg-gray-900 text-gray-100 rounded-lg p-4 my-4 overflow-x-auto;
+}
+
+code {
+  @apply text-gray-200 px-1.5 py-0.5 rounded text-sm font-mono;
+}
+
+pre code {
+  @apply bg-transparent p-0 text-base;
+}
+}
